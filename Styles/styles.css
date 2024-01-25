@@ -1,0 +1,56 @@
+body {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.post {
+  width: 300px;
+  background-color: white;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu7GxMKTU1Kvnz.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+.profile-pic {
+  width: 25px;
+  height: 25px;
+}
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+.post-body {
+  padding: 8px;
+}
+.post-icons {
+  padding: 8px;
+}
+.header-left {
+  display: flex;
+}
+.post-img img {
+  width: 300px;
+  height: 300px;
+}
+p,h1 {
+  margin: 0;
+}
+.post-icons {
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  font-size: small;
+}
+.post-header p {
+  font-size: smaller;
+}
+p {
+  font-size: medium;
+}
